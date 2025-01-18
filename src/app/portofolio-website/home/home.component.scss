@@ -1,110 +1,138 @@
+// .home-container {
+//   text-align: center;
+//   padding: 50px;
+//   background-color: #c1ecff;
+//   font-family: "Lobster", sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
 
-  
-  .home-container {
-    text-align: center;
-    padding: 50px;
-    background-color: #c1ecff;
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style:normal; 
-  }
+// h1 {
+//   font-size: 2.5em;
+//   margin-bottom: 20px;
+//   color: #333;
+// }
 
-  
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  p {
-    font-size: 1.2em;
-    color: #555;
-  }
-  
-  .card-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style:normal;  
-    }
-  
-  .example-card {
-    max-width: 300px;
-    transition: transform 0.6s ease; 
-  }
-  .example-card:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-  }
-  
-  .example-header-image {
-    background-image: url('https://via.placeholder.com/40');
-    background-size: cover;
-  }
-  
+// p {
+//   font-size: 1.2em;
+//   color: #555;
+// }
 
-  .main-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+// .card-container {
+//   display: flex;
+//   justify-content: space-around;
+//   margin-top: 30px;
+//   font-family: "Lobster", sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
 
-  .thumb-container {
-    overflow: hidden;
-    border-radius: 20px; 
-  }
+// .example-card {
+//   max-width: 300px;
+//   transition: transform 0.6s ease;
+// }
+// .example-card:hover {
+//   transform: scale(1.05);
+//   cursor: pointer;
+// }
 
-  .thumb-image {
-    width: 600px; 
-    height: 300px; 
-    object-fit: cover;
-  }
-  .image-container {
-    flex: 1;
-  }
-  
-  .image-container img {
-    max-width: 100%;
-    border-radius: 10px;
-  }
-  
-  .text-container {
-    flex: 2;
-    padding: 0 20px;
-    
-  }
-  
-  .text-container h1 {
-    font-size: 2.5em;
-    color: #333;
-  }
-  
-  .text-container p {
-    font-size: 1.2em;
-    color: #555;
-  }
-  
+// .example-header-image {
+//   background-image: url("https://via.placeholder.com/40");
+//   background-size: cover;
+// }
 
-  .animate__fadeInLeft {
-    animation-name: fadeInLeft;
-  }
-  .profile-image {
-    width: 300px;
-    height: 300px;
-  }
+// .main-content {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 
-  .align-items-center{
-    justify-content: center;
-    text-align: center;
-  }
+.thumb-container {
+  overflow: hidden;
+  border-radius: 20px;
+}
 
-  button {
-    background-color: #df5211;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.thumb-image {
+  width: 180px;
+  height: 100px;
+  object-fit: cover;
+}
+// .image-container {
+//   flex: 1;
+// }
+
+// .image-container img {
+//   max-width: 100%;
+//   border-radius: 10px;
+// }
+
+// .text-container {
+//   flex: 2;
+//   padding: 0 20px;
+// }
+
+// .text-container h1 {
+//   font-size: 2.5em;
+//   color: #333;
+// }
+
+// .text-container p {
+//   font-size: 1.2em;
+//   color: #555;
+// }
+
+// .animate__fadeInLeft {
+//   animation-name: fadeInLeft;
+// }
+// .profile-image {
+//   width: 300px;
+//   height: 300px;
+// }
+
+// .align-items-center {
+//   justify-content: center;
+//   text-align: center;
+// }
+
+button {
+  background-color: #df5211;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.example-card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-card-header {
+  height: 60px;
+}
+
+mat-card-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+mat-card img {
+  height: 200px;
+  object-fit: contain;
+  padding: 20px;
+}
+
+button {
+  margin: 16px;
+}
