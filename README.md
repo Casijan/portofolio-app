@@ -1,27 +1,39 @@
-# PortofolioApp
+# PortfolioApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+**PortfolioApp** is an Angular-based application designed to showcase a personal portfolio website. This project is created using the Angular framework and features a modern, responsive design with sections for home, about, projects, and contact. The app also includes interactive elements such as animated transitions, navigation links, and dynamic project displays.
 
-## Development server
+## Main Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Home Page**: Showcases the profile image, basic information, and skills with smooth animations.
+- **About Page**: Includes a brief introduction, education details, and project highlights.
+- **Projects Page**: Displays dynamic project cards with detailed descriptions.
+- **Contact Page**: Provides a form to contact the portfolio owner.
+- **Responsive Design**: The website is fully responsive and adapts to mobile, tablet, and desktop views.
+- **Animations**: Smooth animations are integrated for a polished user experience.
 
-## Code scaffolding
+## Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Before setting up the project, make sure you have the following installed:
 
-## Build
+- **Node.js** (version 14.x or later)
+- **npm** (Node Package Manager)
+- **Angular CLI** (installed globally)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+You can install Node.js and npm from [here](https://nodejs.org/).
 
-## Running unit tests
+If you don’t have Angular CLI installed, you can install it globally using:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm install -g @angular/cli
+```
 
-## Running end-to-end tests
+After you've installed AngularCli, run 
+```
+npm intall
+```
+to install node modules
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+And for running the porject locally, run
+``` 
+ng serve
+```
