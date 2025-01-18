@@ -1,62 +1,57 @@
 <div class="home-container">
   <div class="main-content animate__animated animate__fadeInUp">
-    <div class="main-content animate__animated animate__fadeInUp">
-      <div class="thumb-container">
-        <img src="thumb.png" alt="Profile image" class="thumb-image" />
-      </div>
+    <div class="thumb-container">
+      <img
+        src="thumb.png"
+        alt="Thumbnail image of profile"
+        class="thumb-image"
+      />
     </div>
-
     <div class="text-container">
-      <h2 style="text-align: center">Portofolio-Website</h2>
+      <h2 class="page-title">Portfolio Website</h2>
     </div>
   </div>
-  <div>
-    <div>
-      <div
-        id="skills-section"
-        class="skills-section animate__animated animate__fadeInUp"
-      >
-        <p style="font-size: 25px; color: #c28a08">My Skills</p>
-      </div>
-      <div class="card-container">
-        <mat-card class="example-card animate__animated animate__fadeInUp">
-          <mat-card-header class="row align-items-center">
-            <p style="color: #cb760e">Angular</p>
-          </mat-card-header>
-          <img mat-card-image src="angular.png" alt="Image" />
-          <mat-card-content>
-            <p>Helps developers build dynamic, single-page web applications.</p>
-          </mat-card-content>
-          <button>Know More..</button
-          ><!-- Nu face nimic :)-->
-        </mat-card>
 
-        <mat-card class="example-card animate__animated animate__fadeInUp">
-          <mat-card-header class="row align-items-center">
-            <p style="color: #c57008">ReactJS</p>
-          </mat-card-header>
-          <img mat-card-image src="react.png" alt="Image" />
-          <mat-card-content>
-            <p>
-              JS library for building user interfaces, particularly for SPA's.
-            </p>
-          </mat-card-content>
-          <button>Know More..</button
-          ><!-- Nu face nimic :)-->
-        </mat-card>
+  <div class="skills-wrapper">
+    <div
+      id="skills-section"
+      class="skills-section animate__animated animate__fadeInUp"
+    >
+      <p class="skills-title">My Skills</p>
+    </div>
+    <div class="card-container">
+      <mat-card class="example-card animate__animated animate__fadeInUp">
+        <mat-card-header>
+          <p class="card-title">Angular</p>
+        </mat-card-header>
+        <img mat-card-image src="angular.png" alt="Angular Logo" />
+        <mat-card-content>
+          <p>Helps developers build dynamic, single-page web applications.</p>
+        </mat-card-content>
+        <button class="card-button">Know More...</button>
+      </mat-card>
 
-        <mat-card class="example-card animate__animated animate__fadeInUp">
-          <mat-card-header class="row align-items-center">
-            <p style="color: #c86713">Java</p>
-          </mat-card-header>
-          <img mat-card-image src="java.png" alt="Image" />
-          <mat-card-content>
-            <p>Java is designed to be platform-independent.</p>
-          </mat-card-content>
-          <button>Know More..</button>
-          <!-- Nu face nimic :)-->
-        </mat-card>
-      </div>
+      <mat-card class="example-card animate__animated animate__fadeInUp">
+        <mat-card-header>
+          <p class="card-title">ReactJS</p>
+        </mat-card-header>
+        <img mat-card-image src="react.png" alt="React Logo" />
+        <mat-card-content>
+          <p>JS library for building user interfaces, particularly for SPAs.</p>
+        </mat-card-content>
+        <button class="card-button">Know More...</button>
+      </mat-card>
+
+      <mat-card class="example-card animate__animated animate__fadeInUp">
+        <mat-card-header>
+          <p class="card-title">Java</p>
+        </mat-card-header>
+        <img mat-card-image src="java.png" alt="Java Logo" />
+        <mat-card-content>
+          <p>Java is designed to be platform-independent.</p>
+        </mat-card-content>
+        <button class="card-button">Know More...</button>
+      </mat-card>
     </div>
   </div>
 </div>
