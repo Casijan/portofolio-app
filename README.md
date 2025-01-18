@@ -25,3 +25,15 @@ If you don’t have Angular CLI installed, you can install it globally using:
 
 ```bash
 npm install -g @angular/cli
+```
+
+After you've installed AngularCli, run 
+```
+npm intall
+```
+to install node modules
+
+And for running the porject locally, run
+``` 
+ng serve
+```
