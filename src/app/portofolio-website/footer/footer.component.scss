@@ -1,25 +1,48 @@
+/* Footer Container */
 .footer {
-    background-color: #e88d05;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
-  
+  background-color: #333; /* Dark footer background */
+  color: white; /* Text color */
+  padding: 20px 10px;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Links Container */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers the links */
+  gap: 20px; /* Space between links */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Individual Footer Links */
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center; /* Centers icon and text vertically */
+  gap: 8px; /* Space between icon and text */
+  transition: color 0.3s;
+}
+
+/* Hover Effect */
+.footer-links a:hover {
+  color: #c28a08; /* Highlight color on hover */
+}
+
+/* Icons Styling */
+.footer-links i {
+  font-size: 18px; /* Icon size */
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
   .footer-links {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    flex-direction: column; /* Stack links vertically */
+    gap: 10px;
   }
-  
-  .footer-links a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  
-  .footer-links a:hover {
-    color: #000000;
-    cursor:pointer;
 }
