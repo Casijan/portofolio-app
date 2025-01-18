@@ -1,26 +1,89 @@
+/* About Me Container */
 .about-me-container {
-    text-align: center;
-    margin: 0 auto;
-    padding: 50px;
-    background-color: #c1ecff;
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style:normal;  
+  max-width: 800px;
+  margin: 20px auto; /* Center the container */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px;
+  animation-duration: 0.8s; /* Smooth fade-in duration */
+}
+
+/* Section Titles */
+.skills-section p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #df5211; /* Highlight color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Education Section */
+.education-section p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555; /* Subtle text color */
+  text-align: center;
+}
+
+/* Projects Section */
+.projects-section {
+  margin-top: 30px;
+}
+
+/* Project Card */
+.project-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc; /* Card border */
+  border-radius: 8px;
+  background-color: #fff; /* Card background */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Subtle card shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+  text-align: center; /* Center the text inside the project card */
+}
+
+/* Project Card Heading */
+.project-card h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Project Card Description */
+.project-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6; /* Improve readability */
+}
+
+/* Hover Effect */
+.project-card:hover {
+  transform: translateY(-5px); /* Lift on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Stronger shadow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-me-container {
+    padding: 15px;
   }
 
-  h2, h3 {
-    color: #e88d05;
+  .skills-section p {
+    font-size: 20px;
   }
-  
-  .education-section,
-  .projects-section {
-    margin-top: 30px;
+
+  .project-card h4 {
+    font-size: 18px;
   }
-  
-  .project-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #f9f9f9;
+
+  .project-card p {
+    font-size: 13px;
   }
+}

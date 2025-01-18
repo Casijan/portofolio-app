@@ -1,9 +1,10 @@
 <div class="form-container">
-  <p style="text-align: center; font-size: 25px">Contact</p>
-  <form [formGroup]="userForm">
+  <p class="form-title">Contact</p>
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
     <label for="name">Name:</label>
     <input type="text" id="name" formControlName="name" />
     <div
+      class="error-message"
       *ngIf="
         userForm.get('name')?.hasError('required') &&
         userForm.get('name').touched
@@ -14,10 +15,28 @@
 
     <label for="email">Email:</label>
     <input type="email" id="email" formControlName="email" />
+    <div
+      class="error-message"
+      *ngIf="
+        userForm.get('email')?.hasError('required') &&
+        userForm.get('email').touched
+      "
+    >
+      Email is required
+    </div>
 
     <label for="message">Message:</label>
     <textarea id="message" formControlName="message" rows="4"></textarea>
+    <div
+      class="error-message"
+      *ngIf="
+        userForm.get('message')?.hasError('required') &&
+        userForm.get('message').touched
+      "
+    >
+      Message is required
+    </div>
 
-    <button (click)="onSubmit()">Submit</button>
+    <button type="submit">Submit</button>
   </form>
 </div>
